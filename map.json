@@ -26,8 +26,13 @@
                  "properties":[
                         {
                          "name":"audioLoop",
-                         "type":"string",
-                         "value":"true"
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"audioVolume",
+                         "type":"float",
+                         "value":0.1
                         }, 
                         {
                          "name":"playAudio",
