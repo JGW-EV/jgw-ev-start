@@ -377,6 +377,10 @@
                         }]
                 }],
          "tilewidth":32
+        }, 
+        {
+         "firstgid":455,
+         "source":"src\/assets\/interiour.tsx"
         }],
  "tilewidth":32,
  "type":"map",
