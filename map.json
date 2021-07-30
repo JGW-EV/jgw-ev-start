@@ -380,7 +380,11 @@
         }, 
         {
          "firstgid":455,
-         "source":"src\/assets\/interiour.tsx"
+         "source":"src\/assets\/interiour.xml"
+        }, 
+        {
+         "firstgid":3703,
+         "source":"src\/assets\/nature.xml"
         }],
  "tilewidth":32,
  "type":"map",
