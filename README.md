@@ -1,5 +1,5 @@
 # Workadventure Map testen:
-https://jvjuettner.github.io/jgw-ev-start/
+https://play.workadventure.jgw-ev.de/_/global/jvjuettner.github.io/jgw-ev-start/map.json
 
 # WorkAdventure Map Starter Kit
 
