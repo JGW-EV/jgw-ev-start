@@ -412,8 +412,17 @@
          "tilewidth":32
         }, 
         {
+         "columns":20,
          "firstgid":455,
-         "source":"src\/assets\/nature.xml"
+         "image":"src\/assets\/RPG Nature Tileset.png",
+         "imageheight":288,
+         "imagewidth":641,
+         "margin":0,
+         "name":"nature",
+         "spacing":0,
+         "tilecount":180,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
