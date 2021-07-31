@@ -4,9 +4,9 @@ let currentPopup: any = undefined;
 
 // Credits
 WA.onEnterZone('credits', () => {
-    currentPopup = WA.openPopup("creditsPopupHeader", "Map-Ersteller:", []);
-    currentPopup = WA.openPopup("creditsPopup", "Vinzenz & Simon", []);
-    currentPopup = WA.openPopup("creditsPopup", "Vielen Dank an Christoph", []);
+    currentPopup = WA.openPopup("creditsPopupHead", "Map-Ersteller:", []);
+    currentPopup = WA.openPopup("creditsPopupBody", "Vinzenz & Simon", []);
+    currentPopup = WA.openPopup("creditsPopupFooter", "Vielen Dank an Christoph", []);
     console.log(document.getElementById('container'));
 });
 
