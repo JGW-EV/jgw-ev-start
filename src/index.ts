@@ -2,15 +2,13 @@
 
 let currentPopup: any = undefined;
 
-// Credits
-WA.onEnterZone('credits', () => {
-    currentPopup = WA.openPopup("creditsPopupHead", "Map-Ersteller:", []);
-    currentPopup = WA.openPopup("creditsPopupBody", "Vinzenz & Simon", []);
-    currentPopup = WA.openPopup("creditsPopupFooter", "Vielen Dank an Christoph", []);
+// Popup example
+/*WA.onEnterZone('credits', () => {
+    currentPopup = WA.openPopup("creditsPopup", "Map-Ersteller:", []);
     console.log(document.getElementById('container'));
 });
 
-WA.onLeaveZone('credits', closePopUp);
+WA.onLeaveZone('credits', closePopUp);*/
 
 // Meetings
 WA.onEnterZone('meet1', () => {
