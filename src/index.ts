@@ -21,10 +21,10 @@ WA.onEnterZone('meet1_left', () => {
 });
 WA.onLeaveZone('meet1_left', closePopUp);
 
-WA.onEnterZone('meet2', () => {
+WA.onEnterZone('meet2_top', () => {
     currentPopup = WA.openPopup("meet2_pop", "Kursraum 2", []);
 });
-WA.onLeaveZone('meet2', closePopUp);
+WA.onLeaveZone('meet2_top', closePopUp);
 
 WA.onEnterZone('meet3_top', () => {
     currentPopup = WA.openPopup("meet3_top_pop", "Kursraum 3", []);
@@ -46,10 +46,10 @@ WA.onEnterZone('meet4_left', () => {
 });
 WA.onLeaveZone('meet4_left', closePopUp);
 
-WA.onEnterZone('meet5', () => {
+WA.onEnterZone('meet5_right', () => {
     currentPopup = WA.openPopup("meet5_pop", "Kursraum 5", []);
 });
-WA.onLeaveZone('meet5', closePopUp);
+WA.onLeaveZone('meet5_right', closePopUp);
 
 function closePopUp() {
     if (currentPopup !== undefined) {
