@@ -14,7 +14,7 @@ WA.onLeaveZone('credits', closePopUp);*/
 WA.onEnterZone('meet1_top', () => {
     currentPopup = WA.openPopup("meet1_top_pop", "Kursraum 1", []);
 });
-WA.onLeaveZone('meet1_left', closePopUp);
+WA.onLeaveZone('meet1_top', closePopUp);
 
 WA.onEnterZone('meet1_left', () => {
     currentPopup = WA.openPopup("meet1_left_pop", "Kursraum 1", []);
