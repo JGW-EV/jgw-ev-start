@@ -10,36 +10,46 @@ let currentPopup: any = undefined;
 
 WA.onLeaveZone('credits', closePopUp);*/
 
-// Meetings (moved!)
-/* WA.onEnterZone('meet1', () => {
-    WA.openTab('https://bbb.jgw-ev.de/b/jgw-p3d-v8n-wae');
-})
-WA.onEnterZone('meet2', () => {
-    WA.openTab('https://bbb.jgw-ev.de/b/jgw-evp-642-2hj');
-})
-WA.onEnterZone('meet3', () => {
-    WA.openTab('https://bbb.jgw-ev.de/b/jgw-ers-l30-xan');
-})
-WA.onEnterZone('meet4', () => {
-    WA.openTab('https://bbb.jgw-ev.de/b/jgw-fg8-1xm-f67');
-})
-WA.onEnterZone('meet5', () => {
-    WA.openTab('https://bbb.jgw-ev.de/b/jgw-v9t-prc-dlz');
-}) */
-WA.onEnterZone('meet6', () => {
-    WA.openTab('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-})
+// Popups
+WA.onEnterZone('meet1_top', () => {
+    currentPopup = WA.openPopup("meet1_top", "Kursraum 1", []);
+});
+WA.onLeaveZone('meet1_left', closePopUp);
 
-// Other BBB Rooms (moved!)
-/*WA.onEnterZone('aula', () => {
-    WA.openTab('https://bbb.jgw-ev.de/b/jgw-4r2-bkh-cjd');
-})
-WA.onEnterZone('chillArea', () => {
-    WA.openTab('https://bbb.jgw-ev.de/b/jgw-onv-avq-ysv');
-})
-WA.onEnterZone('disco', () => {
-    WA.openTab('https://bbb.jgw-ev.de/b/jgw-vdb-0sq-1ph');
-})*/
+WA.onEnterZone('meet1_left', () => {
+    currentPopup = WA.openPopup("meet1_left", "Kursraum 1", []);
+});
+WA.onLeaveZone('meet1_left', closePopUp);
+
+WA.onEnterZone('meet2', () => {
+    currentPopup = WA.openPopup("meet2", "Kursraum 2", []);
+});
+WA.onLeaveZone('meet2', closePopUp);
+
+WA.onEnterZone('meet3_top', () => {
+    currentPopup = WA.openPopup("meet3_top", "Kursraum 3", []);
+});
+WA.onLeaveZone('meet3_top', closePopUp);
+
+WA.onEnterZone('meet3_right', () => {
+    currentPopup = WA.openPopup("meet3_right", "Kursraum 3", []);
+});
+WA.onLeaveZone('meet3_right', closePopUp);
+
+WA.onEnterZone('meet4_right', () => {
+    currentPopup = WA.openPopup("meet4_right", "Kursraum 4", []);
+});
+WA.onLeaveZone('meet4_right', closePopUp);
+
+WA.onEnterZone('meet4_left', () => {
+    currentPopup = WA.openPopup("meet4_left", "Kursraum 4", []);
+});
+WA.onLeaveZone('meet4_left', closePopUp);
+
+WA.onEnterZone('meet5', () => {
+    currentPopup = WA.openPopup("meet5", "Kursraum 5", []);
+});
+WA.onLeaveZone('meet5', closePopUp);
 
 function closePopUp() {
     if (currentPopup !== undefined) {
@@ -47,3 +57,9 @@ function closePopUp() {
         currentPopup = undefined;
     }
 }
+
+// Rickroll
+WA.onEnterZone('meet6', () => {
+    WA.openTab('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+})
+
