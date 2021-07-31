@@ -4,7 +4,7 @@ let currentPopup: any = undefined;
 
 // Credits
 WA.onEnterZone('credits', () => {
-    currentPopup = WA.openPopup("creditsPopup", 'Map-Ersteller<br>• Vinzenz<br>• Simon<br>Vielen Dank an Christoph', []);
+    currentPopup = WA.openPopup("creditsPopup", "Map-Ersteller\n• Vinzenz\r• Simon<br/>Vielen Dank an Christoph", []);
 });
 
 WA.onLeaveZone('credits', closePopUp);
