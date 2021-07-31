@@ -17,6 +17,7 @@ WA.onEnterZone('credits', () => {
 
 WA.onLeaveZone('credits', closePopUp);
 
+
 function closePopUp() {
     if (currentPopup !== undefined) {
         currentPopup.close();
