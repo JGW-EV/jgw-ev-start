@@ -1,2 +1,2 @@
-(()=>{"use strict";let o;const e=new Date,n=e.getHours()+":"+e.getMinutes();WA.onEnterZone("clock",(()=>{o=WA.openPopup("clockPopup","It's "+n,[])})),WA.onLeaveZone("clock",(function(){void 0!==o&&(o.close(),o=void 0)}))})();
+(()=>{"use strict";let e;const n=new Date,o=n.getHours()+":"+n.getMinutes();function t(){void 0!==e&&(e.close(),e=void 0)}WA.onEnterZone("clock",(()=>{e=WA.openPopup("clockPopup","It's "+o,[])})),WA.onLeaveZone("clock",t),WA.onEnterZone("credits",(()=>{e=WA.openPopup("credits","Mitarbeitende\n\n• Vinzenz\n•Simon\nVielen Dank an Christoph",[])})),WA.onLeaveZone("credits",t)})();
 //# sourceMappingURL=script.js.map

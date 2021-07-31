@@ -6,9 +6,16 @@ const time = today.getHours() + ":" + today.getMinutes();
 
 WA.onEnterZone('clock', () => {
     currentPopup = WA.openPopup("clockPopup", "It's " + time, []);
-})
+});
 
-WA.onLeaveZone('clock', closePopUp)
+WA.onLeaveZone('clock', closePopUp);
+
+// Credits
+WA.onEnterZone('credits', () => {
+    currentPopup = WA.openPopup("credits", "Mitarbeitende\n\n• Vinzenz\n•Simon\nVielen Dank an Christoph", []);
+});
+
+WA.onLeaveZone('credits', closePopUp);
 
 function closePopUp() {
     if (currentPopup !== undefined) {
