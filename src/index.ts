@@ -26,9 +26,9 @@ WA.onEnterZone('meet4', () => {
 WA.onEnterZone('meet5', () => {
     WA.openTab('https://bbb.jgw-ev.de/b/jgw-v9t-prc-dlz');
 })
-WA.onEnterZone('meet6', () => {
+/*WA.onEnterZone('meet6', () => {
     WA.openTab('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-})
+})*/
 
 // Other BBB Rooms
 WA.onEnterZone('aula', () => {
