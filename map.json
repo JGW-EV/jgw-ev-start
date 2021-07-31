@@ -114,12 +114,12 @@
                          "opacity":1,
                          "properties":[
                                 {
-                                 "name":"openWebsiteTrigger",
+                                 "name":"openTabTrigger",
                                  "type":"string",
                                  "value":"onaction"
                                 }, 
                                 {
-                                 "name":"openWebsiteTriggerMessage",
+                                 "name":"openTabTriggerMessage",
                                  "type":"string",
                                  "value":"Dr\u00fccke SPACE um dem Meeting beizutreten."
                                 }, 
