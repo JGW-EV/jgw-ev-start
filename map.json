@@ -269,6 +269,11 @@
                                  "value":"https:\/\/bbb.jgw-ev.de\/b\/jgw-p3d-v8n-wae"
                                 }, 
                                 {
+                                 "name":"openWebsitePolicy",
+                                 "type":"string",
+                                 "value":"allow"
+                                }, 
+                                {
                                  "name":"openWebsiteTrigger",
                                  "type":"string",
                                  "value":"onaction"
