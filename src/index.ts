@@ -1,22 +1,33 @@
 /// <reference path="../node_modules/@workadventure/iframe-api-typings/iframe_api.d.ts" />
 
 let currentPopup: any = undefined;
-const today = new Date();
-const time = today.getHours() + ":" + today.getMinutes();
-
-WA.onEnterZone('clock', () => {
-    currentPopup = WA.openPopup("clockPopup", "It's " + time, []);
-});
-
-WA.onLeaveZone('clock', closePopUp);
 
 // Credits
 WA.onEnterZone('credits', () => {
-    currentPopup = WA.openPopup("creditsPopup", "Map-Ersteller\n\n• Vinzenz\n•Simon\nVielen Dank an Christoph", []);
+    currentPopup = WA.openPopup("creditsPopup", "Test", []);
 });
 
 WA.onLeaveZone('credits', closePopUp);
 
+// Meetings
+WA.onEnterZone('meet1', () => {
+    WA.openTab('');
+})
+WA.onEnterZone('meet2', () => {
+    WA.openTab('');
+})
+WA.onEnterZone('meet3', () => {
+    WA.openTab('');
+})
+WA.onEnterZone('meet4', () => {
+    WA.openTab('');
+})
+WA.onEnterZone('meet5', () => {
+    WA.openTab('');
+})
+WA.onEnterZone('meet6', () => {
+    WA.openTab('');
+})
 
 function closePopUp() {
     if (currentPopup !== undefined) {
