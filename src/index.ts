@@ -10,10 +10,10 @@ let currentPopup: any = undefined;
 
 WA.onLeaveZone('credits', closePopUp);*/
 
-// Meetings
-/*WA.onEnterZone('meet1', () => {
+// Meetings (moved!)
+/* WA.onEnterZone('meet1', () => {
     WA.openTab('https://bbb.jgw-ev.de/b/jgw-p3d-v8n-wae');
-})*/
+})
 WA.onEnterZone('meet2', () => {
     WA.openTab('https://bbb.jgw-ev.de/b/jgw-evp-642-2hj');
 })
@@ -25,13 +25,13 @@ WA.onEnterZone('meet4', () => {
 })
 WA.onEnterZone('meet5', () => {
     WA.openTab('https://bbb.jgw-ev.de/b/jgw-v9t-prc-dlz');
-})
-/*WA.onEnterZone('meet6', () => {
+}) */
+WA.onEnterZone('meet6', () => {
     WA.openTab('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-})*/
+})
 
-// Other BBB Rooms
-WA.onEnterZone('aula', () => {
+// Other BBB Rooms (moved!)
+/*WA.onEnterZone('aula', () => {
     WA.openTab('https://bbb.jgw-ev.de/b/jgw-4r2-bkh-cjd');
 })
 WA.onEnterZone('chillArea', () => {
@@ -39,7 +39,7 @@ WA.onEnterZone('chillArea', () => {
 })
 WA.onEnterZone('disco', () => {
     WA.openTab('https://bbb.jgw-ev.de/b/jgw-vdb-0sq-1ph');
-})
+})*/
 
 function closePopUp() {
     if (currentPopup !== undefined) {

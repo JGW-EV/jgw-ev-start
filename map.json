@@ -30,6 +30,16 @@
                          "opacity":1,
                          "properties":[
                                 {
+                                 "name":"openWebsite",
+                                 "type":"string",
+                                 "value":"https:\/\/bbb.jgw-ev.de\/b\/jgw-vdb-0sq-1ph"
+                                }, 
+                                {
+                                 "name":"openWebsitePolicy",
+                                 "type":"string",
+                                 "value":"allow"
+                                }, 
+                                {
                                  "name":"openWebsiteTrigger",
                                  "type":"string",
                                  "value":"onaction"
@@ -57,6 +67,16 @@
                          "name":"ChillArea",
                          "opacity":1,
                          "properties":[
+                                {
+                                 "name":"openWebsite",
+                                 "type":"string",
+                                 "value":"https:\/\/bbb.jgw-ev.de\/b\/jgw-onv-avq-ysv"
+                                }, 
+                                {
+                                 "name":"openWebsitePolicy",
+                                 "type":"string",
+                                 "value":"allow"
+                                }, 
                                 {
                                  "name":"openWebsiteTrigger",
                                  "type":"string",
@@ -86,6 +106,16 @@
                          "opacity":1,
                          "properties":[
                                 {
+                                 "name":"openWebsite",
+                                 "type":"string",
+                                 "value":"https:\/\/bbb.jgw-ev.de\/b\/jgw-4r2-bkh-cjd"
+                                }, 
+                                {
+                                 "name":"openWebsitePolicy",
+                                 "type":"string",
+                                 "value":"allow"
+                                }, 
+                                {
                                  "name":"openWebsiteTrigger",
                                  "type":"string",
                                  "value":"onaction"
@@ -114,26 +144,6 @@
                          "opacity":1,
                          "properties":[
                                 {
-                                 "name":"openWebsite",
-                                 "type":"string",
-                                 "value":"https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ"
-                                }, 
-                                {
-                                 "name":"openWebsitePolicy",
-                                 "type":"string",
-                                 "value":"allow"
-                                }, 
-                                {
-                                 "name":"openWebsiteTrigger",
-                                 "type":"string",
-                                 "value":"onaction"
-                                }, 
-                                {
-                                 "name":"openWebsiteTriggerMessage",
-                                 "type":"string",
-                                 "value":"Dr\u00fccke SPACE um dem Meeting beizutreten."
-                                }, 
-                                {
                                  "name":"zone",
                                  "type":"string",
                                  "value":"meet6"
@@ -151,6 +161,16 @@
                          "name":"Meeting 5",
                          "opacity":1,
                          "properties":[
+                                {
+                                 "name":"openWebsite",
+                                 "type":"string",
+                                 "value":"https:\/\/bbb.jgw-ev.de\/b\/jgw-v9t-prc-dlz"
+                                }, 
+                                {
+                                 "name":"openWebsitePolicy",
+                                 "type":"string",
+                                 "value":"allow"
+                                }, 
                                 {
                                  "name":"openWebsiteTrigger",
                                  "type":"string",
@@ -180,6 +200,16 @@
                          "opacity":1,
                          "properties":[
                                 {
+                                 "name":"openWebsite",
+                                 "type":"string",
+                                 "value":"https:\/\/bbb.jgw-ev.de\/b\/jgw-fg8-1xm-f67"
+                                }, 
+                                {
+                                 "name":"openWebsitePolicy",
+                                 "type":"string",
+                                 "value":"allow"
+                                }, 
+                                {
                                  "name":"openWebsiteTrigger",
                                  "type":"string",
                                  "value":"onaction"
@@ -208,6 +238,16 @@
                          "opacity":1,
                          "properties":[
                                 {
+                                 "name":"openWebsite",
+                                 "type":"string",
+                                 "value":"https:\/\/bbb.jgw-ev.de\/b\/jgw-ers-l30-xan"
+                                }, 
+                                {
+                                 "name":"openWebsitePolicy",
+                                 "type":"string",
+                                 "value":"allow"
+                                }, 
+                                {
                                  "name":"openWebsiteTrigger",
                                  "type":"string",
                                  "value":"onaction"
@@ -235,6 +275,16 @@
                          "name":"Meeting 2",
                          "opacity":1,
                          "properties":[
+                                {
+                                 "name":"openWebsite",
+                                 "type":"string",
+                                 "value":"https:\/\/bbb.jgw-ev.de\/b\/jgw-evp-642-2hj"
+                                }, 
+                                {
+                                 "name":"openWebsitePolicy",
+                                 "type":"string",
+                                 "value":"allow"
+                                }, 
                                 {
                                  "name":"openWebsiteTrigger",
                                  "type":"string",
@@ -475,7 +525,7 @@
          "name":"Floor",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
