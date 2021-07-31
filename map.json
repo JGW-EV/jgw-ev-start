@@ -37,7 +37,7 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"name",
+                         "name":"zone",
                          "type":"string",
                          "value":"credits"
                         }],
@@ -203,7 +203,7 @@
          "name":"Floor",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -271,7 +271,18 @@
          "draworder":"topdown",
          "id":57,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "height":95.5,
+                 "id":11,
+                 "name":"creditsPopup",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":192,
+                 "x":5088.5,
+                 "y":2401
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -315,7 +326,7 @@
          "y":0
         }],
  "nextlayerid":75,
- "nextobjectid":11,
+ "nextobjectid":12,
  "orientation":"orthogonal",
  "properties":[
         {
