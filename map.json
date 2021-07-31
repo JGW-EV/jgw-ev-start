@@ -321,7 +321,7 @@
          "name":"Floor",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -392,14 +392,14 @@
          "objects":[
                 {
                  "height":95.5,
-                 "id":11,
+                 "id":22,
                  "name":"creditsPopup",
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":192,
-                 "x":5088.5,
-                 "y":2401
+                 "x":5120.5,
+                 "y":2497.25
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -444,7 +444,7 @@
          "y":0
         }],
  "nextlayerid":82,
- "nextobjectid":12,
+ "nextobjectid":23,
  "orientation":"orthogonal",
  "properties":[
         {
