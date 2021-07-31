@@ -114,12 +114,22 @@
                          "opacity":1,
                          "properties":[
                                 {
-                                 "name":"openTabTrigger",
+                                 "name":"openWebsite",
+                                 "type":"string",
+                                 "value":"https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ"
+                                }, 
+                                {
+                                 "name":"openWebsitePolicy",
+                                 "type":"string",
+                                 "value":"allow"
+                                }, 
+                                {
+                                 "name":"openWebsiteTrigger",
                                  "type":"string",
                                  "value":"onaction"
                                 }, 
                                 {
-                                 "name":"openTabTriggerMessage",
+                                 "name":"openWebsiteTriggerMessage",
                                  "type":"string",
                                  "value":"Dr\u00fccke SPACE um dem Meeting beizutreten."
                                 }, 
@@ -537,7 +547,7 @@
                     },
                  "type":"",
                  "visible":true,
-                 "width":99.5,
+                 "width":111.5,
                  "x":5101.5,
                  "y":2322.5
                 }, 
@@ -553,8 +563,8 @@
                     },
                  "type":"",
                  "visible":true,
-                 "width":136,
-                 "x":5084,
+                 "width":214,
+                 "x":5070,
                  "y":2342.5
                 }, 
                 {
@@ -569,8 +579,8 @@
                     },
                  "type":"",
                  "visible":true,
-                 "width":199,
-                 "x":5053.5,
+                 "width":288,
+                 "x":5035.5,
                  "y":2370.5
                 }],
          "opacity":1,
