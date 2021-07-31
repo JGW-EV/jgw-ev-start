@@ -12,7 +12,7 @@ WA.onLeaveZone('clock', closePopUp);
 
 // Credits
 WA.onEnterZone('credits', () => {
-    currentPopup = WA.openPopup("credits", "Map-Ersteller\n\n• Vinzenz\n•Simon\nVielen Dank an Christoph", []);
+    currentPopup = WA.openPopup("creditsPopup", "Map-Ersteller\n\n• Vinzenz\n•Simon\nVielen Dank an Christoph", []);
 });
 
 WA.onLeaveZone('credits', closePopUp);
