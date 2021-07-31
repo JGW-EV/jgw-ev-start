@@ -525,37 +525,53 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "height":29.5,
-                 "id":25,
-                 "name":"creditsPopupHead",
+                 "height":19,
+                 "id":30,
+                 "name":"",
                  "rotation":0,
+                 "text":
+                    {
+                     "text":"Map-Ersteller:",
+                     "underline":true,
+                     "wrap":true
+                    },
                  "type":"",
                  "visible":true,
-                 "width":129,
-                 "x":5119.5,
-                 "y":2497
+                 "width":99.5,
+                 "x":5101.5,
+                 "y":2426.5
                 }, 
                 {
-                 "height":29.5,
-                 "id":26,
-                 "name":"creditsPopupBody",
+                 "height":19,
+                 "id":31,
+                 "name":"",
                  "rotation":0,
+                 "text":
+                    {
+                     "text":"Vinzenz & Simon",
+                     "wrap":true
+                    },
                  "type":"",
                  "visible":true,
-                 "width":129,
-                 "x":5119.5,
-                 "y":2526
+                 "width":122,
+                 "x":5090,
+                 "y":2446.5
                 }, 
                 {
-                 "height":29.5,
-                 "id":27,
-                 "name":"creditsPopupFooter",
+                 "height":19,
+                 "id":32,
+                 "name":"",
                  "rotation":0,
+                 "text":
+                    {
+                     "text":"Vielen Dank an Christoph",
+                     "wrap":true
+                    },
                  "type":"",
                  "visible":true,
-                 "width":129,
-                 "x":5119.5,
-                 "y":2556.5
+                 "width":182,
+                 "x":5062.5,
+                 "y":2474.5
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -600,7 +616,7 @@
          "y":0
         }],
  "nextlayerid":85,
- "nextobjectid":29,
+ "nextobjectid":33,
  "orientation":"orthogonal",
  "properties":[
         {
