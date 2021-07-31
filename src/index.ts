@@ -4,29 +4,43 @@ let currentPopup: any = undefined;
 
 // Credits
 WA.onEnterZone('credits', () => {
-    currentPopup = WA.openPopup("creditsPopup", 'Map-Ersteller<br>• Vinzenz<br>• Simon<br>Vielen Dank an Christoph', []);
+    currentPopup = WA.openPopup("creditsPopupHeader", "Map-Ersteller:", []);
+    currentPopup = WA.openPopup("creditsPopup", "Vinzenz & Simon", []);
+    currentPopup = WA.openPopup("creditsPopup", "Vielen Dank an Christoph", []);
+    console.log(document.getElementById('container'));
 });
 
 WA.onLeaveZone('credits', closePopUp);
 
 // Meetings
 WA.onEnterZone('meet1', () => {
-    WA.openTab('');
+    WA.openTab('https://bbb.jgw-ev.de/b/jgw-p3d-v8n-wae');
 })
 WA.onEnterZone('meet2', () => {
-    WA.openTab('');
+    WA.openTab('https://bbb.jgw-ev.de/b/jgw-evp-642-2hj');
 })
 WA.onEnterZone('meet3', () => {
-    WA.openTab('');
+    WA.openTab('https://bbb.jgw-ev.de/b/jgw-ers-l30-xan');
 })
 WA.onEnterZone('meet4', () => {
-    WA.openTab('');
+    WA.openTab('https://bbb.jgw-ev.de/b/jgw-fg8-1xm-f67');
 })
 WA.onEnterZone('meet5', () => {
-    WA.openTab('');
+    WA.openTab('https://bbb.jgw-ev.de/b/jgw-v9t-prc-dlz');
 })
 WA.onEnterZone('meet6', () => {
-    WA.openTab('');
+    WA.openTab('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+})
+
+// Other BBB Rooms
+WA.onEnterZone('aula', () => {
+    WA.openTab('https://bbb.jgw-ev.de/b/jgw-4r2-bkh-cjd');
+})
+WA.onEnterZone('chillArea', () => {
+    WA.openTab('https://bbb.jgw-ev.de/b/jgw-onv-avq-ysv');
+})
+WA.onEnterZone('disco', () => {
+    WA.openTab('https://bbb.jgw-ev.de/b/jgw-vdb-0sq-1ph');
 })
 
 function closePopUp() {
