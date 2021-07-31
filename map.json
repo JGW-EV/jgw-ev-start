@@ -264,6 +264,11 @@
                          "opacity":1,
                          "properties":[
                                 {
+                                 "name":"openWebsite",
+                                 "type":"string",
+                                 "value":"https:\/\/bbb.jgw-ev.de\/b\/jgw-p3d-v8n-wae"
+                                }, 
+                                {
                                  "name":"openWebsiteTrigger",
                                  "type":"string",
                                  "value":"onaction"

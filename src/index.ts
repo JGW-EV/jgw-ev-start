@@ -11,9 +11,9 @@ let currentPopup: any = undefined;
 WA.onLeaveZone('credits', closePopUp);*/
 
 // Meetings
-WA.onEnterZone('meet1', () => {
+/*WA.onEnterZone('meet1', () => {
     WA.openTab('https://bbb.jgw-ev.de/b/jgw-p3d-v8n-wae');
-})
+})*/
 WA.onEnterZone('meet2', () => {
     WA.openTab('https://bbb.jgw-ev.de/b/jgw-evp-642-2hj');
 })
